@@ -1,5 +1,6 @@
 from jira.client import JIRA
 import yaml
+import getpass
 
 class IssuesToLatex:
     def __init__(self):
@@ -7,7 +8,9 @@ class IssuesToLatex:
             data = yaml.safe_load(f)
 
         self._username = data['login']['username']
-        self._password = data['login']['password']
+        self._password = data['login'].get('password')
+        if not self._password:
+            self._password = getpass.getpass()
 
         self._project = data['project_info']['project']
         self._team = data['project_info']['team']
