@@ -1,0 +1,9 @@
+name: jira2latex
+
+dependencies:
+  - jira
+  - pyaml
+  - python>=3.6
+  - pyyaml
+  - yaml
+

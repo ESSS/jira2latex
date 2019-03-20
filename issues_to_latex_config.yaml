@@ -1,0 +1,12 @@
+login:
+  username: gcardozo
+  password: yep_type_your_password_here
+
+project_info:
+  project: SIMBR
+  team: ['adrianno', 'enio', 'newmar', 'bruno', 'darci', 'gcardozo']
+
+tasks_info:
+  startdate: 2018-12-26
+  enddate: 2019-03-25
+  resolutions: ['Fixed', 'Done']
