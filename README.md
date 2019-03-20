@@ -1,8 +1,8 @@
 ## Usage
 
 * Create the environment: `conda env create -f environment.yml`
-* Open `issues_to_latex_config.yaml` and configure it the way tou need. Don't forget to 
-type your password there. 
+* Open `issues_to_latex_config.yaml` and configure it the way tou need. If you don't type your password there, 
+it'll be asked on the command line. 
 * Run `python issues_to_latex.py`, in case you get `JIRAError 403 CAPTCHA_CHALLENGE` open your browser and logout/login again on
 Jira. 
 
