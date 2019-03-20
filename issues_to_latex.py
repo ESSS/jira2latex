@@ -156,7 +156,8 @@ class IssuesToLatex:
             lines.append(report_item if report_item is not None else "None")
 
 
-IssuesToLatex()
+if __name__ == '__main__':
+    IssuesToLatex()
 
 
 
