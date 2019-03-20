@@ -13,7 +13,8 @@ so in case need to move the script, don't forget to move the config file as well
 
 
 ## Output example:
-```
+
+```latex
 % ------------------Component Name---------------------
 
 Epic name
