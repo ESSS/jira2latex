@@ -7,6 +7,6 @@ project_info:
   team: ['adrianno', 'enio', 'newmar', 'bruno', 'darci', 'gcardozo']
 
 tasks_info:
-  startdate: 2018-12-26
-  enddate: 2019-03-25
+  startdate: 2020-04-26
+  enddate: 2020-07-25
   resolutions: ['Fixed', 'Done']

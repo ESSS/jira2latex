@@ -31,7 +31,7 @@ class IssuesToLatex:
         self._issues_to_latex()
 
     def _issues_to_latex(self):
-        options = {'server': 'https://eden.esss.com.br/jira/'}
+        options = {'server': 'https://eden.esss.co/jira/'}
         basic_auth = (self._username, self._password)
         self._jira = JIRA(basic_auth=basic_auth, options=options, )
         issues = self._search_issues()
